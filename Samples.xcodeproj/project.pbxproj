@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1E45891E9442D100C32717 /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1E45881E9442D100C32717 /* ShinobiCharts.framework */; };
 		4D1E458B1E9443DB00C32717 /* Crosshair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E458A1E9443DB00C32717 /* Crosshair.swift */; };
+		4D1E458D1E944C9600C32717 /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1E458C1E944C9600C32717 /* ShinobiCharts.framework */; };
 		9B2FC2B01DF86E0100AA1B2D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FC2AF1DF86E0100AA1B2D /* Launch Screen.storyboard */; };
 		9B2FC2B81DF996FA00AA1B2D /* BubbleChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2FC2B71DF996FA00AA1B2D /* BubbleChartViewController.swift */; };
 		9B2FC2BA1DF998A200AA1B2D /* punchcard.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FC2B91DF998A200AA1B2D /* punchcard.json */; };
@@ -43,8 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D1E45881E9442D100C32717 /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
 		4D1E458A1E9443DB00C32717 /* Crosshair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crosshair.swift; sourceTree = "<group>"; };
+		4D1E458C1E944C9600C32717 /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShinobiCharts.framework; path = ShinobiCharts/ShinobiCharts.framework; sourceTree = "<group>"; };
 		9B2FC2AF1DF86E0100AA1B2D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9B2FC2B71DF996FA00AA1B2D /* BubbleChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleChartViewController.swift; sourceTree = "<group>"; };
 		9B2FC2B91DF998A200AA1B2D /* punchcard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = punchcard.json; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B85B6371E4A09FA00FD8308 /* ShinobiCharts.framework in Frameworks */,
-				4D1E45891E9442D100C32717 /* ShinobiCharts.framework in Frameworks */,
+				4D1E458D1E944C9600C32717 /* ShinobiCharts.framework in Frameworks */,
 				9B927CB51DF70DAA006C4D22 /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,7 +159,7 @@
 		9B927C9C1DF6F47F006C4D22 /* Samples */ = {
 			isa = PBXGroup;
 			children = (
-				4D1E45881E9442D100C32717 /* ShinobiCharts.framework */,
+				4D1E458C1E944C9600C32717 /* ShinobiCharts.framework */,
 				9B2FC2BB1DF99C2400AA1B2D /* Utilities */,
 				9B927C9D1DF6F47F006C4D22 /* AppDelegate.swift */,
 				9B927C9F1DF6F47F006C4D22 /* MasterViewController.swift */,
@@ -419,6 +419,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/..",
 					"$(PROJECT_DIR)/Samples",
+					"$(PROJECT_DIR)/Samples/ShinobiCharts",
 				);
 				INFOPLIST_FILE = Samples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -438,6 +439,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/..",
 					"$(PROJECT_DIR)/Samples",
+					"$(PROJECT_DIR)/Samples/ShinobiCharts",
 				);
 				INFOPLIST_FILE = Samples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
